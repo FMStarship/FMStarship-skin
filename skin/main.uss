@@ -1,0 +1,3 @@
+/* FM Starship skin: rules that apply the design tokens (tokens.uss) to Football Manager's own elements.
+   Use the token variables (var(--fms-...)) rather than literal values, so the design stays in design/tokens.json.
+   The rules come next, in this order: colour and type, then the top bar and tabs, cards (si-tile), and tables and lists. */
