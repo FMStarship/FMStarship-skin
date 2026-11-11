@@ -33,7 +33,8 @@ If you use a third-party tool or template, check its licence first and credit it
   Never edit `tokens.uss` by hand.
 - Our variables are prefixed `--fms-` so they never collide with FM's own.
 - In `main.uss`, use `var(--fms-...)` rather than literal values.
-- `skin.json` lists its sheets under `"Sheets"` (capital S), as plain paths relative to the skin folder.
+- `skin.json` has exactly two keys, both case-sensitive: `"Name"` (shown in FM) and `"Sheets"` (plain paths relative to the skin folder).
+  FM uses the folder name (`fm-starship`) as the skin's id, so never rename it.
 - Some of FM's colours are set from code (competition and club colours, for example), and USS can't override those. Note them rather than
   fighting them.
 - Every FM patch can change class names. After a patch, check the skin in FM before anything else.

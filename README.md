@@ -12,7 +12,7 @@ own fonts and images. FM reads them while it runs, so there's no build step, no 
 
 ```
 skin/
-├── skin.json     the manifest: name, version, and the list of stylesheets ("Sheets")
+├── skin.json     the manifest: the name shown in FM ("Name") and the stylesheets to load ("Sheets")
 ├── tokens.uss    the design tokens as USS variables (generated from design/tokens.json)
 └── main.uss      the rules that apply the tokens to FM's interface
 ```
