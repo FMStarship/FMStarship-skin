@@ -1,0 +1,8 @@
+{
+  "Id": "fm-starship",
+  "Name": "FM Starship",
+  "DisplayName": "FM Starship",
+  "Version": "0.1.0",
+  "Description": "A calm, dark, editorial skin for Football Manager 27.",
+  "Sheets": ["tokens.uss", "main.uss"]
+}
